@@ -11,7 +11,7 @@ public class FileDemo1 {
 //	}
 	
 	public static void main(String[] args) throws IOException {
-		FileInputStream fis = new FileInputStream("./resource/a.txt");
+		FileInputStream fis = new FileInputStream("src/resource/a.txt");
 		int by = 0;
 		by = fis.read();
 		System.out.print(by);
