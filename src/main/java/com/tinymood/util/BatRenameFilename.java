@@ -38,15 +38,16 @@ public class BatRenameFilename {
 	// Demo 批量修改本地文件名
 
 	public static void main(String[] args) {
-		File srcFolder = new File("D:\\New");
+		File srcFolder = new File("D:\\New1");
+		File desFolder = new File("D:\\New2");
 
 		File[] fileArray = srcFolder.listFiles();
 
 		int i = 1; 
 		for (File f:fileArray) {
-			if (f.isFile() && (f.getName().endsWith(".jepg"))) {
-				String newName = "IMG_0" + i + ".jpg";
-				File newFile = new File(srcFolder, newName);
+			if (f.isFile() && (f.getName().endsWith(".jpg"))) {
+				String newName = i + ".jpg";
+				File newFile = new File(desFolder, newName);
 				f.renameTo(newFile);
 				i++;
 				System.out.println(i + "--" + newFile.getName());
