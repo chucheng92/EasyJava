@@ -10,7 +10,7 @@ public class ContainsDuplicate {
 	}
 	
 	public boolean containsDuplicate(int[] nums) {
-		// Set实现更快.
+		// Set闆嗗悎
 		if (nums.length<2) return false;
 		Map<Integer, Integer> map = new HashMap<>();
 		for (int i=0; i<nums.length; i++) {
@@ -21,7 +21,7 @@ public class ContainsDuplicate {
 		}
 		return false;
 		
-		// Set 法
+		// Set 锟斤拷
 //		Set<Integer> set = new HashSet<Integer>();
 //        for(int i : nums)
 //            if(!set.add(i))// if there is same

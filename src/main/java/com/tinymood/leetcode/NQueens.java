@@ -4,12 +4,12 @@ import java.util.List;
 
 public class NQueens {
 	public static void main(String[] args) {
-		System.out.println("***µü´ú»ØËİ·¨***");
+		System.out.println("***è¿­ä»£å›æº¯æ³•***");
 		List<List<String>> res = new ArrayList<>();
 		res = new NQueens().iterativeBacktrackNqueens(4);
 		for (List<String> a: res)
 			System.out.println(a);
-		System.out.println("***µİ¹é»ØËİ·¨***");
+		System.out.println("***é€’å½’å›æº¯æ³•***");
 		List<List<String>> res2 = new ArrayList<>();
 		res2 = new NQueens().solveNqueens(4);
 		for (List<String> a: res2)
@@ -17,7 +17,7 @@ public class NQueens {
 		
 	}
 	
-	//´¦ÀíÊä³ö
+	//å¤„ç†
 	private List<String> process(int n, int[] col) {
 		List<String> list = new ArrayList<>();
 		char[][] board = new char[n+1][n+1];
@@ -37,7 +37,7 @@ public class NQueens {
 		return list;
 	}
 	
-	//³åÍ»¼ì²â
+	//æ”¾ç½®æ˜¯å¦åˆæ³•
 	private boolean place(int k, int[] col) {
 		for (int j=1; j<k; j++) {
 			if (col[k]==col[j] || Math.abs(col[k]-col[j])==Math.abs(k-j))
@@ -46,7 +46,7 @@ public class NQueens {
 		return true;
 	}
 	
-	//µü´ú»ØËİ  leetcode AC 11ms
+	//è¿­ä»£å›æº¯  leetcode AC 11ms
 	public List<List<String>> iterativeBacktrackNqueens(int n) {
 		int col[] = new int[n+1];
 		List<List<String>> res = new ArrayList<>();
@@ -68,7 +68,7 @@ public class NQueens {
 		return res;
 	}
 	
-	//µİ¹é»ØËİ leetcode AC 8ms
+	//é€’å½’å›æº¯æ³• leetcode AC 8ms
 	private void recursiveBacktrackNqueens(int k, List<List<String>> res,int n,int[] col) {
 		if (k>n) {
 				res.add(process(n, col));
@@ -81,7 +81,7 @@ public class NQueens {
 		}
 	}
 	
-	//µİ¹é»ØËİ
+	//Nçš‡å
 	public List<List<String>> solveNqueens(int n) {
 		List<List<String>> res = new ArrayList<>();
 		int[] col = new int[n+1];

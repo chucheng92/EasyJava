@@ -7,7 +7,7 @@ public class ShortestPalindrome {
 		System.out.println(new ShortestPalindrome().shortestPalindrome2(s));
 	}
 	
-	// TLE³¬Ê±
+	// TLEæ³•
 	public String shortestPalindrome(String s) {
 		if (isPalindrome(s, 0, s.length()-1))
 			return s;

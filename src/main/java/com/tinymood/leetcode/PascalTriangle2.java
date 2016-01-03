@@ -9,18 +9,6 @@ public class PascalTriangle2 {
 	}
 	
 	public List<Integer> getRow(int rowIndex) {
-		// �ݹ鳬ʱ
-//		List<Integer> res = new ArrayList<>();
-//		if (rowIndex<0) return res;
-//		for (int j=0; j<rowIndex+1; j++) {
-//			if (j==0 || j==rowIndex)
-//				res.add(1);
-//			else
-//				res.add(getRow(rowIndex-1).get(j-1)+getRow(rowIndex-1).get(j));
-//		}
-//		return res;
-		
-		// �ǵݹ鷨
 		List<Integer> res = new ArrayList<>();
 		if (rowIndex<0) return res;
 		for (int i=0; i<=rowIndex; i++) {

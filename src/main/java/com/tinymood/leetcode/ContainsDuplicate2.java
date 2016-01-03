@@ -10,7 +10,7 @@ public class ContainsDuplicate2 {
 	}
 	
 	public boolean containsNearbyDuplicate(int[] nums, int k) {
-		// Set·½·¨
+		// Seté›†åˆ
 		Set<Integer> set = new HashSet<Integer>();
         for(int i = 0; i < nums.length; i++){
             if(i > k) set.remove(nums[i-k-1]);
@@ -18,7 +18,7 @@ public class ContainsDuplicate2 {
         }
         return false;
         
-        // HashMap·½·¨
+        // HashMapæ³•
 //		if (nums.length<2) return false;
 //		Map<Integer, Integer> map = new HashMap<>();
 //		for (int i=0; i<nums.length; i++) {

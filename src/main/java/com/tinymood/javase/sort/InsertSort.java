@@ -10,19 +10,18 @@ public class InsertSort {
 	}
 
 	private static void sort(int[] a) {
-
-		int i, j;
-		for (i = 1; i < a.length; ++i) {
-			int tmp = a[i];
-			j = i - 1;
-			while (j >= 0 && tmp < a[j]) {
-				a[j + 1] = a[j];
-				j--;
-			}
-			if (j != i - 1) {
-				a[j + 1] = tmp;
+		if (a==null || a.length<2)
+			return;
+		
+		for (int i = 1; i < a.length; i++) {
+			for (int j=i; j<a.length; j++) {
+				if (a[j]<a[j-1]) {
+					int temp = a[j];
+					a[j] = a[j-1];
+				}
 			}
 		}
+		
 	}
 
 }
