@@ -1,6 +1,8 @@
 package com.tinymood.javase.sort;
 
-//BubbleSort
+/*
+ * 冒泡排序
+ */
 public class BubbleSort {
 	public static void main(String[] args) {
 		int[] a = { 1, 3, 4, 4, 10, 6, 5, 6, 11, 22 };

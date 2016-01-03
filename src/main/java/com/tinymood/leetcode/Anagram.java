@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class Anagram {
 	public static void main(String[] args) {
 		String s = "anagram", t = "nagaram";
-		System.out.println(new Anagram().isAnagram2(s, t));
+		System.out.println(new Anagram().isAnagram(s, t));
 	}
 	
 	// Solution1 sort

@@ -3,6 +3,9 @@ package com.tinymood.javase.serializable;
 import java.io.Serializable;
 
 public class Course implements Serializable {
+
+	private static final long serialVersionUID = -714428169058260456L;
+	
 	private static String courseName;
 	private int credit;
 	
