@@ -14,21 +14,21 @@ public class BubbleSort {
 	}
 
 	public static void bubbleSort(int[] a) {
+		if (a==null || a.length<2)
+			return;
 		boolean flag;
-		for (int i = 0; i < a.length - 1; i++) {
+		for (int i=0; i<a.length-1; i++) {
 			flag = false;
-
-			for (int j = 0; j < a.length - 1 - i; j++) {
-				if (a[j] > a[j + 1]) {
-					int tmp = a[j];
-					a[j] = a[j + 1];
-					a[j + 1] = tmp;
+			for (int j=0; j<a.length-1-i; j++) {
+				if (a[j]>a[j+1]) {
+					int temp = a[j];
+					a[j] = a[j+1];
+					a[j+1] = temp;
 					flag = true;
 				}
 			}
-			if (flag == false) {
+			if (flag == false)
 				return;
-			}
 		}
 	}
 }
