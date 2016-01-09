@@ -23,5 +23,5 @@ public class HappyNumber {
 				n=squareSum;
 		}
 		return false;
-	}
+	 }
 }

@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  * Longest Substring Without Repeating Characters
- * @author ßØßØ
+ * @author å““å““
  *
  */
 public class LongestSubstring {

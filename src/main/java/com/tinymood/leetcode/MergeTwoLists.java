@@ -24,10 +24,9 @@ public class  MergeTwoLists {
 			res = res.next;
 		}
 	}
-	// �ݹ鷨
 	 
 	
-	// �ǵݹ鷨 v1
+	// v1
 	public static ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
 		if (null == l1) return l2;
 		if (null == l2) return l1;
