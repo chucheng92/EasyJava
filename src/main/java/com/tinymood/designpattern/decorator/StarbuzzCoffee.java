@@ -1,5 +1,7 @@
 package com.tinymood.designpattern.decorator;
 
+import com.tinymood.designpattern.decorator.Beverage.Size;
+
 /*
  * 测试装饰者模式
  */
@@ -23,5 +25,10 @@ public class StarbuzzCoffee {
 		beverage3 = new Whip(beverage3);
 		System.out.println(beverage3.getDescription()+" $"+beverage3.cost());
 		
+		Beverage beverage4 = new Espresso();
+		beverage4.setSize(Size.GRANDE);
+		beverage4 = new Soy(beverage4);
+		System.out.println(beverage4.getDescription() 
+				+ " $" + String.format("%.2f", beverage4.cost()));
 	}
 }
