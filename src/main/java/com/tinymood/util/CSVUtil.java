@@ -3,9 +3,10 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
+import java.io.Reader;
 
-/**
- * Created by 哓哓 on 2016/1/14 0014.
+/*
+ * 处理CSV文件读取
  */
 public class CSVUtil {
 
@@ -25,7 +26,7 @@ public class CSVUtil {
     public static String core(File file, String srcTitle) {
         String fileId = null;
         try {
-            BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), "GBK"));
+            BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), "GB18030"));
             br.readLine();
             String line = null;
             while ((line = br.readLine()) != null) {
