@@ -25,6 +25,7 @@ public class StarbuzzCoffee {
 		beverage3 = new Whip(beverage3);
 		System.out.println(beverage3.getDescription()+" $"+beverage3.cost());
 		
+		// 加入大中小杯
 		Beverage beverage4 = new Espresso();
 		beverage4.setSize(Size.GRANDE);
 		beverage4 = new Soy(beverage4);
