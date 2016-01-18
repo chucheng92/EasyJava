@@ -11,7 +11,7 @@ import java.io.Reader;
 public class CSVUtil {
 
 	public static void main(String[] args) {
-		File file = new File("D:/New/aa.csv");
+		File file = new File("src/resource/文件地址列表-2016-01-14.csv");
 		String fileId = format(core(file, "01.01_计算机基础(计算机概述)"));
 		System.out.println(fileId);
 	}

@@ -1,4 +1,4 @@
-package com.tinymood.designpattern.factory.pizzafm;
+package com.tinymood.designpattern.factory.pizzaaf;
 
 // 比萨店框架
 // 抽象创建者类
