@@ -1,8 +1,9 @@
-package com.tinymood.designpattern.factory.pizzam;
+package com.tinymood.designpattern.factory.pizzafm;
 
-public class ChicagoStylePepperoniPizza extends Pizza {
-	public ChicagoStylePepperoniPizza() {
-		name = "Chicago Style Pepperoni Pizza";
+//具体产品
+public class ChicagoStyleVeggiePizza extends Pizza {
+	public ChicagoStyleVeggiePizza() {
+		name = "Chicago Veggie Pizza";
 		dough = "Extra Thick Crust Dough";
 		sauce = "Plum Tomato Sauce";
  
@@ -10,7 +11,6 @@ public class ChicagoStylePepperoniPizza extends Pizza {
 		toppings.add("Black Olives");
 		toppings.add("Spinach");
 		toppings.add("Eggplant");
-		toppings.add("Sliced Pepperoni");
 	}
  
 	void cut() {

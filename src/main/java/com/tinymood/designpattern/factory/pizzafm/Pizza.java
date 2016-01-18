@@ -1,10 +1,11 @@
-package com.tinymood.designpattern.factory.pizzam;
+package com.tinymood.designpattern.factory.pizzafm;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /*
- * 抽象Pizza类
+ * 工厂产品
+ * 抽象产品类
  */
 public abstract class Pizza {
 	String name;

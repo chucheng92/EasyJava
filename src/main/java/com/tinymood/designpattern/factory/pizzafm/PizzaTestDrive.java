@@ -1,4 +1,4 @@
-package com.tinymood.designpattern.factory.pizzam;
+package com.tinymood.designpattern.factory.pizzafm;
 
 public class PizzaTestDrive {
  

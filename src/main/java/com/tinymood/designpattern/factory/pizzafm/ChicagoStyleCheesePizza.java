@@ -1,5 +1,6 @@
-package com.tinymood.designpattern.factory.pizzam;
+package com.tinymood.designpattern.factory.pizzafm;
 
+//具体产品
 public class ChicagoStyleCheesePizza extends Pizza {
 
 	public ChicagoStyleCheesePizza() { 

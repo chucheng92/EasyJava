@@ -1,5 +1,6 @@
-package com.tinymood.designpattern.factory.pizzam;
+package com.tinymood.designpattern.factory.pizzafm;
 
+// 具体创建者
 public class NYPizzaStore extends PizzaStore {
 
 	@Override
