@@ -2,7 +2,7 @@ package com.tinymood.javase.thread;
 
 public class SellTicket implements Runnable {
 	private int ticket = 100;
-	@Override
+
 	public void run() {
 		while (true) {
 			synchronized (this) {
@@ -11,10 +11,8 @@ public class SellTicket implements Runnable {
 						Thread.sleep(100);
 					} catch (Exception e) {
 						e.printStackTrace();
-						// TODO: handle exception
 					}
-					System.out.println(Thread.currentThread().getName()+"正在出售第"+
-					(ticket--)+"张票");
+					System.out.println(Thread.currentThread().getName() + "正在出售第" + (ticket--) + "张票");
 				}
 			}
 		}
