@@ -5,10 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tinymood</groupId>
-    <artifactId>tinycoding-v1</artifactId>
+    <artifactId>tinycoding</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
+	<name>tinycoding</name>
+	<url>https://github.com/lemonjing/tinycoding</url>
+	
+	<properties>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	
     <dependencies>
         <!--1 MySQL database driver -->
@@ -26,7 +33,7 @@
         
     </dependencies>
 	
-<repositories>
+<!-- <repositories>
   <repository>
    <id>datanucleus</id>
    <url>http://www.datanucleus.org/downloads/maven2/</url>
@@ -61,6 +68,6 @@
    <name>Gilead Maven Repository</name>
    <url>https://gilead.svn.sourceforge.net/svnroot/gilead/gilead/maven-repo</url>
   </repository>
- </repositories>
+ </repositories> -->
  
 </project>
