@@ -25,5 +25,7 @@ public class DayInThisWorld2 {
 		long day = time/1000/60/60/24;
 		
 		System.out.println("你来到这个世界一共"+day+"天了。");
+		System.out.println(DayInThisWorld2.class);
+		System.out.println(DayInThisWorld2.class.getName());
 	}
 }
