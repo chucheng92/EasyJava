@@ -1,7 +1,7 @@
 package com.tinymood.javase.sort;
 
 /**
- * 冒泡排序
+ * 冒泡排序 - 稳定
  * @author 哓哓
  *
  */
