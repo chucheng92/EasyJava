@@ -27,11 +27,4 @@ public class BubbleSort {
 			}
 		}
 	}
-	public static void main(String[] args) {
-		int[] a = { 1, 3, 4, 4, 4, 8, 9, 10, 11 };
-		new BubbleSort().bubbleSort(a);
-		for (int i = 0; i < a.length; ++i) {
-			System.out.print(a[i] + " ");
-		}
-	}
 }

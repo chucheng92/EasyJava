@@ -6,6 +6,7 @@ package com.tinymood.javase.sort;
  *
  */
 public class QuickSort {
+	// 固定基准
 	public void quickSort(int[] a, int low, int high) {
 		if (null == a || a.length < 2) {
 			return;
@@ -21,11 +22,13 @@ public class QuickSort {
 		int pivot = a[low];
 
 		while (low < high) {
-			while (low < high && a[high] > pivot) {
+			// 注意等于，否则死循环
+			while (low < high && a[high] >= pivot) {
 				high--;
 			}
 			a[low] = a[high];
-			while (low < high && a[low] < pivot) {
+			// 注意等于，否则死循环
+			while (low < high && a[low] <= pivot) {
 				low++;
 			}
 			a[high] = a[low];
