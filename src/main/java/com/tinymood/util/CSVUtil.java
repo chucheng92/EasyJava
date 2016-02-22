@@ -12,7 +12,7 @@ import java.io.Reader;
 public class CSVUtil {
 
 	public static void main(String[] args) {
-		File file = new File("src/resource/文件地址列表-2016-01-14.csv");
+		File file = new File("src/main/resources/文件地址列表-2016-01-14.csv");
 		String fileId = format(core(file, "01.01_计算机基础(计算机概述)"));
 		System.out.println(fileId);
 	}
@@ -28,7 +28,7 @@ public class CSVUtil {
         String fileId = null;
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), "GB18030"));
-            br.readLine();
+//            br.readLine();
             String line = null;
             while ((line = br.readLine()) != null) {
                 String[] res = line.split(",");

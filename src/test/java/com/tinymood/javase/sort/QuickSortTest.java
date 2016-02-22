@@ -15,5 +15,4 @@ public class QuickSortTest {
 			System.out.print(a[i] + " ");
 		}
 	}
-
 }
