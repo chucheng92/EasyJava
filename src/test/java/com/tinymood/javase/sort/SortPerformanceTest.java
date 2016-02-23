@@ -21,7 +21,7 @@ public class SortPerformanceTest {
 
 	public static void main(String[] args) {
 		// 启用下行代码随机生成指定MAX_SIZE规模的文本数据并存入数组
-		new SortPerformanceTest().createBenchMark();
+//		new SortPerformanceTest().createBenchMark();
 		System.out.println("正在读取" + MAX_SIZE + "组测试数据并执行不同排序方法，请等待...");
 		System.out.println("======开始分析======");
 
