@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Hi</comment>
+<entry key="name">Java大神养成计划</entry>
+<entry key="author">Lily</entry>
+<entry key="date">2011-11-2</entry>
+<entry key="price">￥99.0</entry>
+</properties>
