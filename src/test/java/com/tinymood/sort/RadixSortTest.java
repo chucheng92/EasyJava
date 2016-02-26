@@ -1,6 +1,8 @@
-package com.tinymood.javase.sort;
+package com.tinymood.sort;
 
 import org.junit.Test;
+
+import com.tinymood.sort.RadixSort;
 
 public class RadixSortTest {
 	@Test

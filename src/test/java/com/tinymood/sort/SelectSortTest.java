@@ -1,8 +1,10 @@
-package com.tinymood.javase.sort;
+package com.tinymood.sort;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.tinymood.sort.SelectSort;
 
 public class SelectSortTest {
 	@Test

@@ -1,4 +1,4 @@
-package com.tinymood.javase.sort;
+package com.tinymood.sort;
 
 /**
  * 缩小增量排序（希尔排序）- 不稳定

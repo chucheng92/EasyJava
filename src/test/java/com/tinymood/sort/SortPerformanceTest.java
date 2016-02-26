@@ -1,4 +1,4 @@
-package com.tinymood.javase.sort;
+package com.tinymood.sort;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,6 +10,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
+
+import com.tinymood.sort.BubbleSort;
+import com.tinymood.sort.HeapSort;
+import com.tinymood.sort.InsertionSort;
+import com.tinymood.sort.MergeSort;
+import com.tinymood.sort.QuickSort;
+import com.tinymood.sort.RadixSort;
+import com.tinymood.sort.SelectSort;
+import com.tinymood.sort.ShellSort;
 
 /**
  * 改进的希尔排序效果显著

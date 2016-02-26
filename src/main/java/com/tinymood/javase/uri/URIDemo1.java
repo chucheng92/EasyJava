@@ -11,6 +11,7 @@ public class URIDemo1 {
 		}
 		URI uri = new URI(args[0]);
 
+		System.out.println("Scheme = " + uri.getScheme());
 		System.out.println("Authority = " + uri.getAuthority());
 		System.out.println("Fragment = " + uri.getFragment());
 		System.out.println("Host = " + uri.getHost());

@@ -1,4 +1,4 @@
-package com.tinymood.javase.sort;
+package com.tinymood.sort;
 
 /**
  * 插入排序 - 稳定
