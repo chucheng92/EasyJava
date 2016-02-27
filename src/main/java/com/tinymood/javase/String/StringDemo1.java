@@ -1,4 +1,4 @@
-package com.tinymood.javase.String;
+package com.tinymood.javase.string;
 
 //字符串获取功能
 public class StringDemo1 {

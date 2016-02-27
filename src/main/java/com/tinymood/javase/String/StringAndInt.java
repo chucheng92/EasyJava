@@ -1,4 +1,4 @@
-package com.tinymood.javase.String;
+package com.tinymood.javase.string;
 
 /**
  * String和int的两个基本方法

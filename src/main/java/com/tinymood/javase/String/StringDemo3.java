@@ -1,4 +1,4 @@
-package com.tinymood.javase.String;
+package com.tinymood.javase.string;
 
 public class StringDemo3 {
 	public static void main(String[] args) {

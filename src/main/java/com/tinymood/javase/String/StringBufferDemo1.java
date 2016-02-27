@@ -1,4 +1,4 @@
-package com.tinymood.javase.String;
+package com.tinymood.javase.string;
 
 /**
  * StringBuffer的Demo
