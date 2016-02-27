@@ -1,4 +1,4 @@
-package com.tinymood.javase.string;
+package com.tinymood.javase.String;
 
 public class Substring {
 	public static void main(String[] args) {

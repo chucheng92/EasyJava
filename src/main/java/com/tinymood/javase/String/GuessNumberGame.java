@@ -1,4 +1,4 @@
-package com.tinymood.javase.string;
+package com.tinymood.javase.String;
 
 import java.util.Scanner;
 
