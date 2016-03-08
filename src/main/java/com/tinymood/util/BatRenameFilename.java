@@ -39,14 +39,14 @@ public class BatRenameFilename {
 
 	public static void main(String[] args) {
 		File srcFolder = new File("D:\\New1");
-		File desFolder = new File("D:\\New2");
+		File desFolder = new File("D:\\New3");
 
 		File[] fileArray = srcFolder.listFiles();
 
 		int i = 1; 
 		for (File f:fileArray) {
-			if (f.isFile() && (f.getName().endsWith(".jpg"))) {
-				String newName = i + ".jpg";
+			if (f.isFile() && (f.getName().endsWith(".md"))) {
+				String newName = i + ".md";
 				File newFile = new File(desFolder, newName);
 				f.renameTo(newFile);
 				i++;
