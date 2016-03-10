@@ -34,9 +34,9 @@ public class HeapSort {
 	private void adjustHeap(int[] a, int size, int parent) {
 		int left = 2 * parent + 1;
 		int right = 2 * parent + 2;
-		
 		int largest = parent;
-		if (left < size && a[left] > a[parent]) {
+		
+		if (left < size && a[left] > a[largest]) {
 			largest = left;
 		}
 		

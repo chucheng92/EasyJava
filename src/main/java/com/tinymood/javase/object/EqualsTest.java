@@ -1,5 +1,8 @@
 package com.tinymood.javase.object;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+
 //equals方法
 public class EqualsTest {
 	public static void main(String[] args) {
@@ -13,5 +16,10 @@ public class EqualsTest {
 		
 		System.out.println(s1.equals(s3)); //false
 		System.out.println(s3.equals(s1)); //false
+		
+		String s4 = "12" + "32";// 反编译
+		String s5 = new String("12");
+		System.out.println(s4 == s5);
+		System.out.println(s4.equals(s5));
 	}
 }

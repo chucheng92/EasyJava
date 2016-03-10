@@ -24,4 +24,12 @@ public class ShellSort {
 			}
 		}
 	}
+		
+	public static void main(String[] args) {
+		int[] a = {4, 5, 3, 2, 1, 6, 7, 8, 9, 10};
+		new ShellSort().shellSort(a);
+		for (int val : a) {
+			System.out.print(val + " ");
+		}
+	}
 }
