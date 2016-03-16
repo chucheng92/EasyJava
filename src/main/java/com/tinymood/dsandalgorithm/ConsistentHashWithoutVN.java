@@ -22,7 +22,7 @@ public class ConsistentHashWithoutVN {
 	private static SortedMap<Integer, String> sortedMap = new TreeMap<>();
 
 	/**
-	 * 加所有服务器加入集合
+	 * 程序初始化，将所有服务器加入集合
 	 */
 	static {
 		for (int i = 0; i < servers.length; i++) {
