@@ -1,5 +1,10 @@
 package com.tinymood.dsandalgorithm;
 
+/**
+* String的hashCode()方法运算结果查看
+* @author 哓哓
+*
+*/
 public class StrngHashCodeTest {
 	public static void main(String[] args) {
 		System.out.println("192.168.0.0:111的哈希值：" + "192.168.0.0:1111".hashCode());
