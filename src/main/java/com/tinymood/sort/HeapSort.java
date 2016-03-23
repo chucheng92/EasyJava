@@ -6,6 +6,14 @@ package com.tinymood.sort;
  *
  */
 public class HeapSort {
+	
+	// 打印最大堆
+	public void print(int[] a) {
+		for (int i : a) {
+			System.out.println(i);
+		}
+	}
+	
 	public void heapSort(int[] a) {
 		if (null == a || a.length < 2) {
 			return;
@@ -20,6 +28,7 @@ public class HeapSort {
 			
 			adjustHeap(a, i, 0);
 		}
+		print(a);
 	}
 
 	// 建堆
@@ -51,4 +60,10 @@ public class HeapSort {
 			adjustHeap(a, size, largest);
 		}
 	}
+	
+	// 维护了一个最大堆
+//	public static void main(String[] args) {
+//		int[] a = {4, 5, 3, 2, 1, 6, 7, 8, 9, 10};
+//		new HeapSort().heapSort(a);
+//	}
 }
