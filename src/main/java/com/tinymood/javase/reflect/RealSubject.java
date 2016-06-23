@@ -1,4 +1,4 @@
-package com.nowcoder.learning.reflect;
+package com.tinymood.javase.reflect;
 
 /**
  * Created by taoxiaoran on 16/4/6.

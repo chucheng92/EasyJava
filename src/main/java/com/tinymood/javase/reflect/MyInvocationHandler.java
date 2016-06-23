@@ -1,4 +1,4 @@
-package com.nowcoder.learning.reflect;
+package com.tinymood.javase.reflect;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

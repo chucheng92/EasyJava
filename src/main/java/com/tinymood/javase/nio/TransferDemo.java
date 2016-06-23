@@ -1,4 +1,4 @@
-package com.nowcoder.learning.nio;
+package com.tinymood.javase.nio;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
