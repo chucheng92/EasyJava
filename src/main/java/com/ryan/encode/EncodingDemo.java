@@ -1,4 +1,4 @@
-package com.ryan.encoding;
+package com.ryan.encode;
 
 import java.io.UnsupportedEncodingException;
 
