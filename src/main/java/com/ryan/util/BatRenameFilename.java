@@ -36,8 +36,8 @@ public class BatRenameFilename {
     // Demo 批量修改本地文件名
 
     public static void main(String[] args) {
-        File srcFolder = new File("C:\\Users\\Ryan Tao\\Desktop\\dataset2");
-        File desFolder = new File("C:\\Users\\Ryan Tao\\Desktop\\newdataset2");
+        File srcFolder = new File("/Users/saber/Desktop/600in");
+        File desFolder = new File("/Users/saber/Desktop/600in2");
 
         File[] fileArray = srcFolder.listFiles();
 
