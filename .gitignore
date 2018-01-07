@@ -6,3 +6,4 @@ test-output/
 *.index
 *.hprof
 /.idea
+*.iml
