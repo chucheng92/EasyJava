@@ -13,7 +13,6 @@ public class RegexTest {
 		// 虽然匹配失败，但由于charSequence里面的"123"和pattern是匹配的,所以下次的匹配从位置4开始
 		print(matcher.matches());
 		
-		
 		// 测试匹配位置
 		matcher.find();
 		print(matcher.start());

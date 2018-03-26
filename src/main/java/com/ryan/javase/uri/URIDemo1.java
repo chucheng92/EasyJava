@@ -5,11 +5,11 @@ import java.net.*;
 public class URIDemo1 {
 	// e.g.http://www.baidu.com:8888/books/book1.php?text=java#uri
 	public static void main(String[] args) throws Exception {
-		if (args.length != 1) {
-			System.err.println("usage: java URIDemo1 uri");
-			return;
-		}
-		URI uri = new URI(args[0]);
+//		if (args.length != 1) {
+//			System.err.println("usage: java URIDemo1 uri");
+//			return;
+//		}
+		URI uri = new URI("http://www.baidu.com:8888/books/book1.php?text=java#uri");
 
 		System.out.println("Scheme = " + uri.getScheme());
 		System.out.println("Authority = " + uri.getAuthority());
@@ -25,6 +25,7 @@ public class URIDemo1 {
 		System.out.println("URI is opaque: " + uri.isOpaque());
 		
 		System.out.println('\u0000');
-		
+
+
 	}
 }
